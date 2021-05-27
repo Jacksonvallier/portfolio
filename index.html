@@ -35,7 +35,7 @@
             </div>   
         </header>
 
-        <div class="sidebar">
+        <aside class="sidebar">
           <nav>
            <ul class="menu master">
              <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
@@ -43,8 +43,7 @@
              <li class="menu-item"><a href="#" class="menu-link">Projetos</a></li>
              <li class="menu-item"><a href="#" class="menu-link">Contatos</a></li>
              <li class="menu-item"><a href="#" class="menu-link">Cotações</a></li>
-                  
-
+            
            </ul>
           </nav> 
           <div class="social-media">
@@ -52,8 +51,151 @@
               <a href="#"><i class="fab fa-github"></i></a>
               <a href="#"><i class="fab fa-twitter"></i></a> 
           </div>
-        </div>      
+        </aside>
+        
+        <section class="sessao-conhecimentos">
+            <div class="sessao-header">
+                <h1>Conhecimentos</h1>
+            </div>
+            <div class="conhecimentos">
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-html"></i>
+                        <h3>HTML</h3>
+                    </div>
+                <div class="conhecimento-text">
+                    <p>Texto teste 1 HTML</p>                    </p>
+                </div>
+            </div>
+        <div class="conhecimento">
+            <div class="conhecimento-header">
+              <i class="fab fa-css3-alt"></i>
+              <h3>CSS</h3>
+            </div>
+        <div class="conhecimento-text">
+            <p>Texto teste 2 CSS</p>
+        </div>
+            
     </div>
+    <div class="conhecimento">
+        <div class="conhecimento-header">
+          <i class="fab fa-js-alt"></i>
+          <h3>JS</h3>
+        </div>
+    <div class="conhecimento-text">
+        <p>Texto teste 3 Javascript</p>
+    </div>
+    </div>
+    <div class="conhecimento">
+        <div class="conhecimento-header">
+          <i class="fab fa-booststrap"
+          <h3>BOOSTRAP</h3> 
+        </div>
+    <div class="conhecimento-text">
+        <p>Texto teste 4 Booststrap</p>
+    </div>
+    </div>
+    <div class="conhecimento">
+        <div class="conhecimento-header">
+          <i class="fab fa-Github"></i>
+          <h3>Git e GitHub</h3> 
+        </div>
+    <div class="conhecimento-text">
+        <p>Texto teste 5 Git e GitHub</p>
+    </div>
+    </div>
+    <div class="conhecimento-img-wrapper">
+        <img src="imagens/conhecimentos.png" alt="imagem conhecimento" >
+    </div>
+    </div>
+    </section>
+
+    <section class="sessao-projetos">
+        <div class="sessao-header">
+            <h1>Projetos</h1>
+        </div>
+        <div class="projetos">
+            <div class="card">
+                <div class="card-img-wrapper">
+                    <img src="/imagens/proj1.jpg" alt="imagem do projeto toDo" />
+                </div>
+                <div class="card-info">
+                    <h2>ToDo List</h2>
+                    <h3>Javascript</h3>
+                    <p>Texto teste de projeto Completo</p>
+                    <button class="btn">Mais opções</button>
+                </div>
+                </div>
+                <div class="card">
+                <div class="card-img-wrapper">
+                    <img scr="/imagens/proj2.jpg" alt="imagem do projeto x" />
+                </div>
+                <div class="card-info">
+                    <h2>Projeto X</h2>
+                    <h3>HTML, CSS</h3>
+                    <p>Texto teste de projeto x</p>
+                    <button class="btn">Mais opções</button>
+                </div>
+                </div>
+                <div class="card">
+                <div class="card-img-wrapper">
+                    <img scr="/imagens/proj3.jpg" alt="imagem do projeto y" />
+                </div>
+                <div class="card-info">
+                    <h2>Projeto Y</h2>
+                    <h3>HTML</h3>
+                    <p>Texto teste de projeto y</p>
+                    <button class="btn">Mais opções</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sessao-contato">
+        <div class="contato-wrapper">
+            <div class="contato-left"></div>
+            <div class="contato-right">
+                <h1>Contato</h1>
+                <form>
+                    <div class="input-group">
+                        <input type="text" class="field" id="nome">
+                        <label for="nome" class="field-label">Nome</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" class="field" id="email">
+                        <label for="email" class="field-label">E-mail</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea class="field"></textarea>
+                        <label for="mensagem" class="field-label">Mensagem</label>
+                    </div>
+                    <button type="submit" class="btn btn-submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="sessao-cotacao">
+        <div class="cotacao-wrapper">
+            <h1>Faça uma cotação</h1>
+            <form>
+                <label for="qtde">Quantidade de páginas</label>
+                <input type="number" min="1" name="qtde" id="qtde">
+                <label for="js">Preciso de um scipt JS</label>
+                <input type="checkbox" name="js" id="js">
+                <label>Layout</label>
+                <div class="group-layout">
+                    <div>
+                        <input type="radio" name="layout" id="layout-não">
+                        <label for="layout-não">Já tenho um layout</label>
+                    </div>
+                    </div>
+                    <label for="prazo">Prazo</label>
+                    <input type="range" name="prazo" id="prazo">
+                    <button class="btn btn-cotacao" type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+  </div>  
 </body>
 
    <script src="script.js"></script>
