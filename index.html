@@ -24,25 +24,25 @@
         </div>
 
         
-        <header>
+        <header id="home">
             <div class="img.wrapper">
                  <img src="imagens/bg.jpg" alt="">
             </div>
             <div class="banner">
-               <h1>Web Test</h1>
-               <p>Test page</p>
+               <h1>Web Front End</h1>
+               <p>Agradecimento: João Carlos Lima pelo curso</p>
                <button>Mais opções</button>
             </div>   
         </header>
 
         <aside class="sidebar">
           <nav>
-           <ul class="menu master">
+           <ul class="menu">
              <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-             <li class="menu-item"><a href="#" class="menu-link">Conhecimentos</a></li>
-             <li class="menu-item"><a href="#" class="menu-link">Projetos</a></li>
-             <li class="menu-item"><a href="#" class="menu-link">Contatos</a></li>
-             <li class="menu-item"><a href="#" class="menu-link">Cotações</a></li>
+             <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimentos</a></li>
+             <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+             <li class="menu-item"><a href="#contato" class="menu-link">Contatos</a></li>
+             <li class="menu-item"><a href="#cotacao" class="menu-link">Cotações</a></li>
             
            </ul>
           </nav> 
@@ -53,7 +53,7 @@
           </div>
         </aside>
         
-        <section class="sessao-conhecimentos">
+        <section class="sessao-conhecimentos" id="conhecimentos">
             <div class="sessao-header">
                 <h1>Conhecimentos</h1>
             </div>
@@ -88,8 +88,8 @@
     </div>
     <div class="conhecimento">
         <div class="conhecimento-header">
-          <i class="fab fa-booststrap"
-          <h3>BOOSTRAP</h3> 
+          <i class="fab fa-booststrap"</i>
+          <h3>BOOSTSRAP</h3> 
         </div>
     <div class="conhecimento-text">
         <p>Texto teste 4 Booststrap</p>
@@ -110,7 +110,7 @@
     </div>
     </section>
 
-    <section class="sessao-projetos">
+    <section class="sessao-projetos" id="projetos">
         <div class="sessao-header">
             <h1>Projetos</h1>
         </div>
@@ -151,7 +151,7 @@
         </div>
     </section>
 
-    <section class="sessao-contato">
+    <section class="sessao-contato" id="contato">
         <div class="contato-wrapper">
             <div class="contato-left"></div>
             <div class="contato-right">
@@ -174,7 +174,7 @@
             </div>
         </div>
     </section>
-    <section class="sessao-cotacao">
+    <section class="sessao-cotacao" id="cotacao">
         <div class="cotacao-wrapper">
             <h1>Faça uma cotação</h1>
             <form>
@@ -191,10 +191,30 @@
                     </div>
                     <label for="prazo">Prazo</label>
                     <input type="range" name="prazo" id="prazo">
+                    <label id="preco">R$ 0,00</label>
                     <button class="btn btn-cotacao" type="submit">Enviar</button>
             </form>
         </div>
     </section>
+    <footer>
+        <div class="footer-content">
+            <p>
+                Copyright &copy; 2020, ETECIA DS - Todos os direitos reservados
+            </p>
+            <div class="social-list">
+               <ul>
+                            
+                  <li><a href=""><i class="fa fa-facebook-f"></i></a></li>
+                  <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                  <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                </ul>  
+            </div>
+        </div>
+    </footer>
+    <a href="#home" id="link-topo">
+        <i class="fas fa-arrow-up"></i>
+        
+    </a>
   </div>  
 </body>
 
